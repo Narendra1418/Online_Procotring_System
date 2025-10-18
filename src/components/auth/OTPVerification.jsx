@@ -247,7 +247,7 @@ const OTPVerification = ({email, onOTPVerified, onResendOTP}) => {
                             <p className="text-gray-600 text-sm">
                                 Code expires in{" "}
                                 <span className="font-mono text-sky-600 font-medium">
-                  {formatTime(timeLeft)}
+                    {formatTime(timeLeft)}
                 </span>
                             </p>
                         ) : (
